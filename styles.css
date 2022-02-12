@@ -1,0 +1,60 @@
+.heading {
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  color: #fae29c;
+  letter-spacing: 4px;
+  background-color: #2d1300;
+}
+
+.heading2 {
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #fae29c;
+  background-color: #2d1300;
+  letter-spacing: 2px;
+}
+
+.bodybackground {
+  background-color: #f1c27d;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.table th {
+  color: #fae29c;
+  background-color: #2d1300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+}
+
+.table th,
+td {
+  padding: 8px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #fae29c;
+}
+
+nav {
+  margin: 10px;
+  text-align: center;
+}
+.menu {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fae29c;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+#p {
+    text-align: center;
+}
