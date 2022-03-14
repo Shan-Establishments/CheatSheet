@@ -13,3 +13,4 @@ __HTML__:
 __CSS__:
 ![csstable](https://user-images.githubusercontent.com/96252845/158227741-622fffb7-b320-4e8a-9180-a77d26eb1ec8.jpeg)
 
+You can view my cheetsheet [here](https://shan-establishments.github.io/CheatSheet/).
