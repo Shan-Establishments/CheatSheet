@@ -3,33 +3,35 @@
   text-align: center;
   font-size: 50px;
   padding: 20px;
-  color: #fae29c;
+  color: #2d1300;
   letter-spacing: 4px;
-  background-color: #2d1300;
+  border: 5px dashed #2d1300;
 }
 
 .heading2 {
   font-family: "Century Gothic", Arial, Helvetica, sans-serif;
   text-align: center;
-  color: #fae29c;
-  background-color: #2d1300;
+  background-color: #fae29c;
+  color: #2d1300;
   letter-spacing: 2px;
+  font-size: 2.25em;
 }
 
 .bodybackground {
-  background-color: #f1c27d;
+  background-color: #f2b8c6;
 }
 
 .table {
   border-collapse: collapse;
-  border: 1px solid #000;
+  border: 5px outset #2d1300;
   width: 100%;
+  margin-top: 2em;
 }
 
 .table th {
   color: #fae29c;
   background-color: #2d1300;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", Verdana, Tahoma, sans-serif;
   font-size: 1.5em;
 }
 
@@ -37,7 +39,11 @@
 td {
   padding: 8px;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+tr {
+  background-color: #f6d061;
 }
 
 tr:nth-child(even) {
@@ -49,12 +55,38 @@ nav {
   text-align: center;
 }
 .menu {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   background-color: #fae29c;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  padding: 0.5em;
   text-decoration: none;
+  border-radius: 50%;
+}
+
+nav a:link {
+  color: #2d1300;
+}
+
+nav a:visited {
+  color: #2d1300;
+}
+
+nav a:hover {
+  color: #6d3005ee;
 }
 
 #p {
-    text-align: center;
+  text-align: center;
+}
+
+td {
+  line-height: 1.55em;
+}
+.code {
+  background-color: #2d1300;
+  border-radius: 5px;
+  margin: 0.15em;
+  color: #f2b8c6;
+  font-family: monospace;
+  font-size: 1.25em;
 }
